@@ -1,5 +1,3 @@
-# Udzuki
+# Udzuki [![Build Status](https://travis-ci.org/web-eng/Udzuki.svg?branch=master)](https://travis-ci.org/web-eng/Udzuki)
 
-[![Build Status](https://travis-ci.org/web-eng/Udzuki.svg?branch=master)](https://travis-ci.org/web-eng/Udzuki)
-
-Generate-and-Validate Automated-Program-Repair Tool for Java
+Written by [Yuta Maezawa](mailto:maezawa@nii.ac.jp) and greatest contributors
