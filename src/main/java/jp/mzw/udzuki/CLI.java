@@ -4,6 +4,8 @@ import jp.mzw.udzuki.command.HelpCommand;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.Arrays;
+
 /**
  * Command Line Interface
  *
@@ -30,7 +32,7 @@ public class CLI {
         if ("".equals(command)) {
 
         } else {
-            new HelpCommand().run();
+            new HelpCommand().run(Arrays.copyOfRange(args, 1, args.length));
         }
         LOGGER.info("Finished: {}", command);
     }
