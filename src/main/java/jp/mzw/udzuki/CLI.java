@@ -1,11 +1,18 @@
 package jp.mzw.udzuki;
 
+import jp.mzw.udzuki.command.HelpCommand;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * Command Line Interface
  *
  * @author Yuta Maezawa
  */
 public class CLI {
+
+    /** Logger */
+    private static final Logger LOGGER = LoggerFactory.getLogger(CLI.class);
 
     /**
      * Main method for instantiating Udzuki
@@ -14,17 +21,18 @@ public class CLI {
      */
     public static void main(String[] args) {
         if (args.length < 1) { // illegal usage
-            help();
+            new HelpCommand().run();
             return;
         }
 
-    }
+        String command = args[0];
+        LOGGER.info("Start: {}", command);
+        if ("".equals(command)) {
 
-    /**
-     * Show usage
-     */
-    private static void help() {
-        System.out.println("$ java -jar -cp=<class-path> jp.mzw.udzuki.CLI <comment> <arguments...>");
+        } else {
+            new HelpCommand().run();
+        }
+        LOGGER.info("Finished: {}", command);
     }
 
 }
