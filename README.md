@@ -2,9 +2,14 @@
 
 Written by [Yuta Maezawa](mailto:maezawa@nii.ac.jp) and greatest contributors
 
+## Description
+Generate-and-Validate Automated-Program-Repair Tool for Java
+
+## Get Started
+TBA
 
 ## License
 [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0)
 
-----
-(C) Yuta Maezawa 2018
+## Acknowledgments
+TBA
