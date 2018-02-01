@@ -1,0 +1,3 @@
+#!/bin/bash
+
+mvn compile test-compile dependency:copy-dependencies

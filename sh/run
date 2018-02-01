@@ -1,0 +1,6 @@
+#!/bin/bash
+
+java \
+  -Xms6400m \
+  -cp target/classes:target/test-classes:target/dependency/* \
+  jp.mzw.udzuki.CLI ${@}
