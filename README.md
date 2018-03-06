@@ -4,9 +4,9 @@ Written by [Yuta Maezawa](mailto:maezawa@nii.ac.jp) and greatest contributors
 
 ## Description
 
-A tool for Automated Program Repair in Java.
+A tool for Automated Program Repair (APR) in Java.
 APR is known as an abbreviation of April.
-Japanese call as "Shigatsu (四月)" and its traditional form is "Udzuki (卯月)".
+April in Japanese is "Shigatsu (四月)" and its traditional form is "Udzuki (卯月)".
 
 ## Get Started
 TBA
